@@ -16,7 +16,7 @@ from time import sleep, time
    
 
 simb = "QWERTYUIOPASDFGHKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890+-!@#$%^&*"
-bot = telebot.TeleBot("8236121440:AAHEs81w0qmbwOU41eCx_9tpFs-1nDVPIbU", parse_mode="HTML")
+bot = telebot.TeleBot("nah", parse_mode="HTML")
     
 
 WEB_URL = "https://pytelegrambotminiapp.vercel.app" 
@@ -80,4 +80,5 @@ def send_hello(message):
 def echo_all(message):
     bot.reply_to(message, message.text)
     
+
 bot.polling(non_stop=True)
