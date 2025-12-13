@@ -1,0 +1,81 @@
+@keyframes color-change {
+    0%   { background-color: #5988FF; }
+    50%  { background-color: #628eff;}
+    100% { background-color: #5988FF; }
+}
+
+
+
+body {
+    font-family: Inter, monospace;
+    font-size: 14px; 
+    background: linear-gradient(45deg, #1f1f2a, #323142);
+    color: #ffffff;
+    text-shadow: 0px 0px 60px rgb(0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    
+}
+
+h1 {
+    text-shadow: 0px 0px 15px rgba(23, 9, 74, 0.283);
+    color: #ffffff; 
+    font-size: 64px; 
+    font-family: FreeMono, monospace; 
+    text-align: center;
+    
+    background-color: #5988FF;
+    line-height: 400%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    animation: color-change 3s infinite;
+}
+p {
+    
+    text-align: center;
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+hr {
+    opacity: 0.5;
+}
+
+button {
+    font-family: FreeMono, monospace;
+    color: #ffffff;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    font-size: 20px;
+    background: linear-gradient(20deg, #1f1f2a, #323142);
+    display: block;
+    margin: 0 auto;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    transition: 0.5s ease-in-out;
+    background: -webkit-linear-gradient(top, #1f1f2a, #323142); 
+    
+    
+      
+    
+}
+
+button:hover {
+    background: -webkit-linear-gradient(top,  #5988FF);
+    -webkit-transition: -webkit-linear-gradient 2s;
+    
+}
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #ffffff;
+    border: 2px transparent;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}

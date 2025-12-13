@@ -1,0 +1,34 @@
+body {
+    font-family: FreeMono, monospace;
+    font-size: 14px; 
+    background: linear-gradient(45deg, #5988FF);
+    color: #ffffff;
+    text-shadow: 0px 0px 60px rgb(0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    line-height: 110%;
+}
+p {
+    
+    text-align: center;
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+    line-height: 1000%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 6px transparent;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+img:hover {
+    box-shadow: 0px 5px 20px rgb(0, 0, 0);
+    transition: box-shadow 0.3 ease-in-out;
+}
+
