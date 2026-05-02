@@ -1,0 +1,5 @@
+install all provided libralies
+sounddevice
+scipy
+speech_recognition
+googletrans
